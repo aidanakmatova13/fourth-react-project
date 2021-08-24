@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Users from "./Users";
+import Swuser from "./Swuser";
+import Cat from "./Cat";
+import Pokes from "./Pokes";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Users/>
+        {/*<Swuser/>*/}
+        {/*<Cat/>*/}
+        {/*<Pokes/>*/}
     </div>
   );
 }
 
 export default App;
+
+
+//DONE
+// Создайте компонент, который выводит имена и почты всех польхоователей
+// https://jsonplaceholder.typicode.com/
+
+
+// Создайте компонент, который содержит input и две кнопки
+// Вывести имя пользователя с сервиса swapi.dev, id которого напечатан в input
+// так же есть возможность переключать пользователя нажатием на кнопки по убыванию и возрастанию соответственно
+
+
+// Воспользуйтесь api https://docs.thecatapi.com/
+// Отобразить выпадающий список с породами котов. вывести информацию о породе включая фото
+
+
+// Воспользуйтесь api https://pokeapi.co/ и выведите фото всех покемонов включая их имена
+
+
+// Каждое задание должно быть в виде отдельного компонента и выведено в App одновременно. Результат загрузить на один из облачных сервисов на выбор
