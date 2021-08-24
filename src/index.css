@@ -1,0 +1,12 @@
+*{
+    text-align: center;
+}
+.row{
+    margin: 0 -15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-3{
+    width: 25%;
+    padding: 0 15px;
+}

@@ -6,9 +6,9 @@ import Pokes from "./Pokes";
 function App() {
   return (
     <div>
-      <Users/>
-        {/*<Swuser/>*/}
-        <Cat/>
+      {/*<Users/>*/}
+      {/*  /!*<Swuser/>*!/*/}
+      {/*  <Cat/>*/}
         <Pokes/>
     </div>
   );
