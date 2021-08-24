@@ -2,13 +2,14 @@ import Users from "./Users";
 import Swuser from "./Swuser";
 import Cat from "./Cat";
 import Pokes from "./Pokes";
+
 function App() {
   return (
     <div>
       <Users/>
         {/*<Swuser/>*/}
-        {/*<Cat/>*/}
-        {/*<Pokes/>*/}
+        <Cat/>
+        <Pokes/>
     </div>
   );
 }

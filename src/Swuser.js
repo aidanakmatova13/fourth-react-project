@@ -3,19 +3,18 @@ import {useState} from "react";
 import user from "./user";
 
 const Swuser = () =>{
-    const [userid, setId] = useState(`${swusers.map(user => user.id)}`)
+    const [userid, setId] = useState(`${swusers}`)
     const [userName, setUserName] = useState("")
     const handleId = () =>{
-        setId(user.id)
+        setId({swusers})
     }
     const show = () =>{
         console.log(user.name)
     }
     return(
         <div>
-            <input onChange={handleId} type="text"/>
+            <input onChange={handleId} type="number"/>
             <button onClick={show}>Вывести</button>
-            <button>Вывести</button>
             <div>{userName}</div>
         </div>
     )

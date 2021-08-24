@@ -1,8 +1,13 @@
 import poke from "./poke";
-const Pokes = () =>{
+const Pokes = () => {
     return (
         <div>
-            {poke.abilities.filter(item => item.ability.name)}
+            {poke.results.map(item => (
+                <>
+                <p>Pokemon name: {item.name}</p>
+                    <img src="https://pokeapi.co/api/v2/pokemon/208/" alt=""/>
+                </>
+            ))}
         </div>
     )
 }

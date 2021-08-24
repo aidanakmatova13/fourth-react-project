@@ -5,7 +5,7 @@ const Users = () =>{
         <div>
             {
                 users.map(user =>{
-                    return <p key={user.name}>{user.name}</p>
+                    return <p key={user.name}>User name: {user.name}</p>
                 })
             }
         </div>
